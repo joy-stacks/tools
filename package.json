@@ -1,0 +1,30 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "js工具函数",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joy-stacks/tools"
+  },
+  "keywords": [
+    "loadsh",
+    "underscore"
+  ],
+  "author": "joy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joy-stacks/tools/issues"
+  },
+  "homepage": "https://github.com/joy-stacks/tools#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "rollup": "^2.70.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
